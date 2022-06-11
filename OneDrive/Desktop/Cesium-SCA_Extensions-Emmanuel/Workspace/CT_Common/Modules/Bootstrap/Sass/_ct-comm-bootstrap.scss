@@ -1,0 +1,53 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  &:before,
+  &:after {
+    content: none;
+  }
+}
+
+$infixes: xs, sm, md, lg;
+
+@each $infix in $infixes {
+  .col-#{$infix} {
+    flex: 1 0 0;
+  }
+
+  .col-#{$infix}-auto {
+    flex: 0 0 auto;
+  }
+
+  @for $i from 1 through 12 {
+    .col-#{$infix}-#{$i} {
+      flex: 0 0 auto;
+
+      @if $infix != xs {
+        @extend .col-xs-12;
+      }
+    }
+  }
+}
+
+.ct-section {
+  padding: $sc-margin-lv3 0;
+
+  &.no-spacing {
+    padding: 0;
+  }
+
+  &.spacing-xl {
+    padding-top: $sc-padding-lv1 * 20;
+    padding-bottom: $sc-padding-lv1 * 20;
+  }
+
+  .row {
+
+    [class^="col-"] {
+      padding-top: $sc-padding-lv3;
+      padding-bottom: $sc-padding-lv3;
+    }
+  }
+}
+

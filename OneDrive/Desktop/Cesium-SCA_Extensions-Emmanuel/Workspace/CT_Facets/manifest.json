@@ -1,0 +1,63 @@
+{
+	"name": "CT_Facets",
+	"fantasyName": "Cesium Facets",
+	"vendor": "SuiteStars",
+	"type": "extension",
+	"target": "SCA,SCS",
+	"target_version": {
+		"SCA": ">=21.2.0",
+		"SCS": ">=21.2.0"
+	},
+	"version": "1.0.2",
+	"description": "Extended Facets for Cesium theme.",
+	"configuration": {
+		"files": [
+			"Modules/Facets/Configuration/CT.FCT.Facets.json"
+		]
+	},
+	"templates": {
+		"application": {
+			"shopping": {
+				"files": [
+					"Modules/Facets/Templates/ct_fct_facets_facet_browse.tpl",
+					"Modules/Facets/Templates/ct_fct_facets_faceted_navigation.tpl",
+					"Modules/Facets/Templates/ct_fct_facets_facets_display.tpl",
+					"Modules/Facets/Templates/ct_fct_facets_item_cell_grid.tpl",
+					"Modules/Facets/Templates/ct_fct_facets_item_cell_list.tpl",
+					"Modules/Facets/Templates/ct_fct_facets_item_list_sort_selector.tpl",
+					"Modules/Facets/Templates/ct_fct_facets_item_cell_table.tpl",
+					"Modules/Facets/Templates/ct_fct_facets_browse_category_heading.tpl"
+				]
+			}
+		}
+	},
+	"sass": {
+		"entry_points": {
+			"shopping": "Modules/Facets/Sass/_ct-fct-facets.scss"
+		},
+		"files": [
+			"Modules/Facets/Sass/_ct-fct-facets.scss"
+		]
+	},
+	"javascript": {
+		"entry_points": {
+			"shopping": "Modules/Facets/JavaScript/CT.FCT.Facets.js"
+		},
+		"application": {
+			"shopping": {
+				"files": [
+					"Modules/Facets/JavaScript/CT.FCT.FacetedNavigation.View.js",
+					"Modules/Facets/JavaScript/CT.FCT.Facets.Browse.View.js",
+					"Modules/Facets/JavaScript/CT.FCT.Facets.FacetsDisplay.View.js",
+					"Modules/Facets/JavaScript/CT.FCT.Facets.ItemCell.View.js",
+					"Modules/Facets/JavaScript/CT.FCT.Facets.ItemListSortSelector.View.js",
+					"Modules/Facets/JavaScript/CT.FCT.Facets.js",
+					"Modules/Facets/JavaScript/CT.FCT.Facets.Browse.CategoryHeading.View.js"
+				]
+			}
+		}
+	},
+	"path": "SuiteScripts/Deploy_Extensions/SuiteStars/CT_Facets@1.0.2",
+	"activation_id": "6",
+	"extension_id": "1901"
+}

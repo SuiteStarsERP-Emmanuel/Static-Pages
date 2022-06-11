@@ -1,0 +1,38 @@
+.global-views-lang-selector {
+  margin-bottom: $sc-margin-lv2;
+  overflow: hidden;
+  @extend .selector;
+  display: block;
+}
+
+.global-views-lang-selector-addon {
+  @extend .selector-icon;
+}
+
+.global-views-lang-selector-select {
+  @extend .selector-select;
+}
+
+.global-views-lang-selector-globe-icon {
+  @extend .icon-globe;
+}
+
+.global-views-currency-selector-addon,
+.global-views-lang-selector-addon {
+  font-size: $sc-font-size-s;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  background: $sc-color-white;
+}
+
+.global-views-currency-selector-select,
+.global-views-lang-selector-select {
+  width: 190px;
+  height: 32px;
+  background: $sc-color-white;
+  font-size: $sc-font-size-s;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 $sc-padding-lv3;
+}

@@ -1,0 +1,17 @@
+# Exclude unnecessary files and folders from git tracking for SCA.
+
+.idea
+.vscode
+node_modules
+gulp
+DeployDistribution
+LocalDistribution
+ns_npm_repository
+.nsdeploy
+.yo-rc.json
+gulpfile.js
+package.json
+package-lock.json
+payload.json
+
+Workspace/Extras

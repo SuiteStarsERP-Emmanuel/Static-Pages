@@ -1,0 +1,29 @@
+{
+	"type": "object",
+	"properties": {
+		"header.newsUrl": {
+			"group": "layout",
+			"subtab": "header",
+			"type": "string",
+			"title": "Cesium News Url",
+			"description": "Enter the url for Cesium News.",
+			"default": "https://news.cesiumonline.com/"
+		},
+		"header.announcement": {
+			"group": "layout",
+			"subtab": "header",
+			"type": "string",
+			"title": "Featured Announcement",
+			"description": "Enter the featured announcement that is displayed at the top bar of the header.",
+			"default": "Featured Announcement Text!"
+		},
+		"header.requireLoginRegisterMessage": {
+			"group": "layout",
+			"subtab": "header",
+			"type": "string",
+			"title": "Require Login or Register Message",
+			"description": "Enter the message that is displayed at the top bar of the header requiring Login or Register in order to shop.",
+			"default": "In order to shop you must have an account."
+		}
+	}
+}

@@ -1,0 +1,15 @@
+.shopping-layout-header {
+  margin: 0;
+  box-shadow: 0 10px 20px rgba(0, 65, 128, .1);
+}
+
+@import "../../Bootstrap/Sass/ct-comm-bootstrap";
+@import "./ct-comm-reset";
+
+@import "./ct-comm-components";
+
+@import "../../GlobalViews/Sass/ct-comm-global-views";
+@import "../../SiteSearch/Sass/ct-comm-site-search";
+@import "../../SiteSearch/Sass/ct-comm-site-search-button";
+@import "../../QuickLinks/Sass/ct-comm-quick-links";
+@import "../../ItemsSearcher/Sass/ct-comm-itemssearcher";

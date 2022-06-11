@@ -1,0 +1,15 @@
+[data-view="NewInStock"] {
+
+  .bx-wrapper .bx-prev,
+  .bx-wrapper .bx-next {
+    top: 152px;
+  }
+}
+
+[data-view="NewInStock.Collection"] {
+
+  .facets-item-cell-grid {
+    padding: $sc-padding-lv1 * 8 $sc-padding-lv1 * 11;
+    margin: 0;
+  }
+}

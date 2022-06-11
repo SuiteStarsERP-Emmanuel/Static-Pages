@@ -1,0 +1,204 @@
+{
+	"type": "object",
+	"properties": {
+		"home.banner": {
+			"group": "layout",
+			"subtab": "home",
+			"type": "array",
+			"title": "Banner slider",
+			"description": "Banner slider.",
+			"items": {
+				"type": "object",
+				"properties": {
+					"title": {
+						"type": "string",
+						"title": "Title",
+						"translate": true
+					},
+					"description": {
+						"type": "string",
+						"nsType": "textarea",
+						"title": "Description",
+						"translate": true
+					},
+					"image": {
+						"type": "string",
+						"title": "Image"
+					},
+					"btnText": {
+						"type": "string",
+						"title": "Button Text",
+						"translate": true
+					},
+					"href": {
+						"type": "string",
+						"title": "href"
+					},
+					"dataTouchpoint": {
+						"type": "string",
+						"title": "data-touchpoint",
+						"enum": [
+							"",
+							"home",
+							"login",
+							"register",
+							"logout",
+							"customercenter",
+							"viewcart",
+							"checkout"
+						]
+					},
+					"dataHashtag": {
+						"type": "string",
+						"title": "data-hashtag"
+					}
+				}
+			}
+		},
+		"home.blocks": {
+			"group": "layout",
+			"subtab": "home",
+			"type": "array",
+			"title": "Home Blocks",
+			"description": "Featured blocks on Homepage.",
+			"items": {
+				"type": "object",
+				"properties": {
+					"title": {
+						"type": "string",
+						"title": "Title",
+						"translate": true
+					},
+					"description": {
+						"type": "string",
+						"nsType": "textarea",
+						"title": "Description",
+						"translate": true
+					},
+					"image": {
+						"type": "string",
+						"title": "Image"
+					},
+					"btnText": {
+						"type": "string",
+						"title": "Button Text",
+						"translate": true
+					},
+					"href": {
+						"type": "string",
+						"title": "href"
+					},
+					"dataTouchpoint": {
+						"type": "string",
+						"title": "data-touchpoint",
+						"enum": [
+							"",
+							"home",
+							"login",
+							"register",
+							"logout",
+							"customercenter",
+							"viewcart",
+							"checkout"
+						]
+					},
+					"dataHashtag": {
+						"type": "string",
+						"title": "data-hashtag"
+					}
+				}
+			}
+		},
+		"home.categories": {
+			"group": "layout",
+			"subtab": "home",
+			"type": "array",
+			"title": "Categories",
+			"description": "Featured categories on Homepage.",
+			"items": {
+				"type": "object",
+				"properties": {
+					"title": {
+						"type": "string",
+						"title": "Title",
+						"translate": true
+					},
+					"caption": {
+						"type": "string",
+						"title": "caption",
+						"translate": true
+					},
+					"image": {
+						"type": "string",
+						"title": "Image"
+					},
+					"href": {
+						"type": "string",
+						"title": "href"
+					},
+					"dataTouchpoint": {
+						"type": "string",
+						"title": "data-touchpoint",
+						"enum": [
+							"",
+							"home",
+							"login",
+							"register",
+							"logout",
+							"customercenter",
+							"viewcart",
+							"checkout"
+						]
+					},
+					"dataHashtag": {
+						"type": "string",
+						"title": "data-hashtag"
+					}
+				}
+			}
+		},
+		"home.sponsors": {
+			"group": "layout",
+			"subtab": "home",
+			"type": "array",
+			"title": "Sponsors",
+			"description": "Featured brands on Homepage.",
+			"items": {
+				"type": "object",
+				"properties": {
+					"title": {
+						"type": "string",
+						"title": "Title",
+						"translate": true
+					},
+					"image": {
+						"type": "string",
+						"title": "Image"
+					},
+					"href": {
+						"type": "string",
+						"title": "href"
+					},
+					"dataTouchpoint": {
+						"type": "string",
+						"title": "data-touchpoint",
+						"enum": [
+							"",
+							"home",
+							"login",
+							"register",
+							"logout",
+							"customercenter",
+							"viewcart",
+							"checkout"
+						]
+					},
+					"dataHashtag": {
+						"type": "string",
+						"title": "data-hashtag"
+					}
+				}
+			}
+		}
+	}
+}

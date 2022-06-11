@@ -1,0 +1,63 @@
+{
+    "name": "CT_Home",
+    "fantasyName": "Cesium Home",
+    "vendor": "SuiteStars",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=21.2.0",
+        "SCS": ">=21.2.0"
+    },
+    "description": "Extended Home for Cesium Theme.",
+    "skins": [],
+    "configuration": {
+        "files": [
+            "Modules/Home/Configuration/CT.HME.Home.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/Main/Sass/_ct-hme-main.scss"
+        },
+        "files": [
+            "Modules/Main/Sass/_ct-hme-main.scss",
+            "Modules/Home/Sass/_ct-hme-home.scss",
+            "Modules/NewInStock/Sass/_ct-hme-new-in-stock.scss",
+            "Modules/BestSellers/Sass/_ct-hme-best-sellers.scss",
+            "Modules/Sponsors/Sass/_ct-hme-sponsors.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Home/Templates/ct_hme_home.tpl",
+                    "Modules/NewInStock/Templates/ct_hme_new_in_stock.tpl",
+                    "Modules/BestSellers/Templates/ct_hme_best_sellers.tpl",
+                    "Modules/Sponsors/Templates/ct_hme_sponsors.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Main/JavaScript/CT.HME.Shopping.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Home/JavaScript/CT.HME.Home.View.js",
+                    "Modules/Main/JavaScript/CT.HME.Shopping.js",
+                    "Modules/NewInStock/JavaScript/CT.HME.NewInStock.Collection.js",
+                    "Modules/NewInStock/JavaScript/CT.HME.NewInStock.CollectionView.js",
+                    "Modules/NewInStock/JavaScript/CT.HME.NewInStock.View.js",
+                    "Modules/BestSellers/JavaScript/CT.HME.BestSellers.View.js",
+                    "Modules/BestSellers/JavaScript/CT.HME.BestSellers.View.js",
+                    "Modules/Sponsors/JavaScript/CT.HME.Sponsors.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace\\CT_Home"
+}

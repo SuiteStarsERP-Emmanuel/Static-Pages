@@ -1,0 +1,39 @@
+.home {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.home-banner-slide {
+  background-color: #000;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 60px 0 25vw;
+
+  @media (min-width: $screen-lg-min) {
+    background-size: 1140px;
+    min-height: 550px;
+  }
+
+  h1 {
+    color: $sc-color-white;
+  }
+
+  p {
+    color: $sc-color-white;
+    max-width: 550px;
+  }
+}
+
+.home-bottom-banner {
+  margin-top: $sc-margin-lv3;
+}
+
+[data-view="NewInStock.Collection"] .slick-arrow {
+  top: 142px;
+}
+
+.ct-section-bs {
+  background: $sc-color-cesium;
+}

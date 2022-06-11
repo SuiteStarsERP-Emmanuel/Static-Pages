@@ -1,0 +1,139 @@
+* { 
+    margin: auto; 
+    padding: 0; 
+    box-sizing: 
+    border-box;
+}
+
+/* SECTION 1: OUR SERVICES HEADER*/
+
+.our-services-container {
+    /* background-image: url(/Footer Logo.jpg); */
+    padding-top: 112.19px;
+    height: 350px;
+    max-width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: url('../assets/img/img/background1.jpg') no-repeat;
+    max-width: 1440px;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,46,181, 0.8);
+}
+
+.our-services-header {
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 62px;
+    line-height: 62px;
+    color: #FFFFFF;
+    flex-grow: 0;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.paragraph-1 {
+
+    width: 700px;
+    height: 48px;
+
+    /* Typography styles/Body */
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* SECTION 2: SERVICES*/
+
+.services-container {
+    padding: 0;
+    max-width: 1440px;
+    height: 1070px;
+    display:flex;
+    /* background: rgb(255, 0, 0); */
+    
+}
+
+.flexbox-left-container {
+    margin: 0;
+    margin-right: 5px;
+    width: 720px;
+    background: rgb(255, 255, 255);
+}
+
+
+.flexbox-right-container {
+    margin: 0;
+    width: 720px;
+    background: rgb(255, 255, 255);
+    /* margin-left: 64px */
+}
+
+.logistics-img {
+    margin: 30px 0 0 64px;
+    border-radius: 32px;
+    /* width: 645px;
+    height: 440px; */
+    width: 1154px;
+    height: 1836px;
+}
+
+.stock-rotation-handling-img {
+    margin: 30px 0 0 10px;
+    border-radius: 32px;
+    width: 645px;
+    height: 440px;
+}
+
+.logistics-header {
+    margin: 242px 0 0 64px;
+    width: 648px;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+
+/* .our-story-paragraph {
+    margin: 0;
+    padding-top: 26px;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+} */
+
+.paragraphs-2 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 0px;
+    color: #000000;
+    margin-left: 64px;
+}
+
+.paragraphs-3 {
+    margin: 0;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 0px;
+    color: #000000;
+    margin-left: 64px;
+}

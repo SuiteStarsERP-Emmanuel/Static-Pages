@@ -1,0 +1,110 @@
+// My Quick Links
+li[data-toggle="quick-links"] {
+  position: relative;
+}
+
+.quick-links {
+
+  &-container {
+    display: none;
+    padding-bottom: $sc-padding-lv4;
+    background: $sc-color-white;
+
+    @media (min-width: $screen-md-min) {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      font-size: $sc-font-size-s;
+      width: 250px;
+      max-width: 95vw;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+      padding: $sc-padding-lv4;
+    }
+
+    li[data-toggle="quick-links"]:hover & {
+      display: block;
+    }
+  }
+
+  &-list {
+    margin-bottom: $sc-margin-lv5;
+  }
+
+  &-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: $sc-margin-lv1;
+
+    &-name {
+      color: $sc-neutral-shade;
+    }
+
+    &-remove {
+      @extend .ct-icon;
+      @extend .ct-icon-remove;
+      font-size: $sc-font-size-xxs;
+    }
+  }
+
+  &-new {
+    text-align: center;
+
+    input {
+      height: 36px;
+    }
+
+    &-title {
+      font-size: $sc-font-size-m;
+      text-transform: uppercase;
+      margin-bottom: $sc-margin-lv2;
+    }
+
+    &-button {
+      @extend .button-medium;
+      @extend .button-primary;
+    }
+  }
+}
+
+.header-sidebar-menu {
+
+  [data-view="Header.Menu.QuickLinks"] {
+    display: none;
+  }
+
+  [data-toggle="quick-links"] {
+
+    &:active,
+    &:hover {
+      color: $sc-color-primary;
+    }
+
+    .ct-icon {
+      margin-left: auto;
+      padding: $sc-padding-lv2;
+    }
+  }
+
+  .quick-links {
+
+    &-container {
+      padding: $sc-padding-lv4 0;
+      border-top: 1px solid $sc-color-cesium-700;
+      display: block;
+    }
+
+    &-link {
+      border: 0;
+      display: flex;
+
+      a {
+        padding: 0;
+        line-height: 24px;
+        margin-bottom: $sc-margin-lv2;
+        font-weight: 400;
+      }
+    }
+  }
+}

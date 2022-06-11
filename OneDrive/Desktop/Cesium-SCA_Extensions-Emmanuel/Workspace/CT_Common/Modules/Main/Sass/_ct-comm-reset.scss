@@ -1,0 +1,160 @@
+// Collection
+.ct-collection {
+  margin: 0 $sc-margin-lv3 * -1;
+  text-align: center;
+
+  &-title {
+    font-weight: 400;
+    letter-spacing: -.2px;
+    color: #4f4f4f;
+    margin-bottom: $sc-margin-lv1 * 20;
+  }
+
+  &-items {
+    display: flex;
+    align-items: center;
+  }
+
+  &-button {
+    @extend .button-large;
+    @extend .button-primary;
+    margin-top: $sc-margin-lv1 * 20;
+
+    &-secondary {
+      @extend .button-large;
+      @extend .button-secondary;
+      margin-top: $sc-margin-lv1 * 20;
+    }
+  }
+}
+
+// Arrow
+.ct-has-arrow {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .ct-icon-shaft {
+    width: 16px;
+    transition: all .2s;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+
+    span {
+      background-color: currentColor;
+      display: block;
+      height: 1.5px;
+      position: relative;
+      transition: all 0.2s;
+      will-change: transform;
+      width: 16px;
+
+      &:before,
+      &:after {
+        background-color: currentColor;
+        content: "";
+        display: block;
+        width: 9px;
+        height: 1.5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      &:before {
+        transform-origin: top right;
+        transform: rotate(30deg);
+      }
+
+      &:after {
+        transform-origin: bottom right;
+        transform: rotate(-30deg);
+      }
+    }
+  }
+
+  &:hover {
+
+    .ct-icon-shaft {
+      width: 24px;
+
+      span {
+        width: 24px;
+      }
+    }
+  }
+}
+
+.ct-has-arrow-reverted {
+  @extend .ct-has-arrow;
+
+  > .ct-icon-shaft {
+    margin-left: unset;
+    margin-right: auto;
+
+    span {
+
+      &:before,
+      &:after {
+        right: auto;
+        left: 0;
+      }
+
+      &:before {
+        transform-origin: top left;
+        transform: rotate(-30deg);
+      }
+
+      &:after {
+        transform-origin: bottom left;
+        transform: rotate(30deg);
+      }
+    }
+  }
+}
+
+// Carousel
+.bx-wrapper {
+  position: relative;
+
+  .bx-controls {
+    margin: 0;
+  }
+
+  .bx-prev,
+  .bx-next {
+    @extend .ct-icon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: $sc-color-secondary;
+    border-radius: 50%;
+    font-size: 0;
+    color: transparent;
+
+    &:hover {
+      background: $sc-color-primary;
+    }
+
+    &:before {
+      font-size: $sc-font-size-m;
+      color: $sc-color-white;
+    }
+  }
+
+  .bx-prev {
+    @extend .ct-icon-chev-left;
+    left: $sc-margin-lv1 * 8;
+  }
+
+  .bx-next {
+    @extend .ct-icon-chev-right;
+    right: $sc-margin-lv1 * 8;
+  }
+}

@@ -1,0 +1,104 @@
+{
+	"type": "object",
+	"subtab": {
+		"id": "ctNav",
+		"group": "layout",
+		"title": "Cesium Navigation",
+		"description": "Meta data for the navigation menu items."
+	},
+	"properties": {
+		"ctNav.itemMeta": {
+			"group": "layout",
+			"subtab": "ctNav",
+			"type": "array",
+			"title": "Item Meta",
+			"description": "Meta information for menu items.",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "string",
+						"title": "Id",
+						"description": "ID value for menu item defined in Layout > Navigation subtab.",
+						"mandatory": true
+					},
+					"showOnlyIf": {
+						"type": "string",
+						"title": "Show Only If",
+						"description": "Choose an option to specify this item's visibility.",
+						"enum": [
+							"Default",
+							"Logged In",
+							"Not logged in"
+						],
+						"default": "Default"
+					},
+					"columns": {
+						"type": "number",
+						"title": "Columns",
+						"description": "Number of columns for child menu items."
+					},
+					"icon": {
+						"type": "string",
+						"title": "Icon",
+						"description": "CSS selectors for the menu item icon. If this is set, menu item text will be hidden."
+					}
+				}
+			}
+		},
+		"ctNav.itemFeatured": {
+			"group": "layout",
+			"subtab": "ctNav",
+			"type": "array",
+			"title": "Item Featured Data",
+			"description": "Featured data for menu items.",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "string",
+						"title": "Id",
+						"description": "ID value for menu item defined in Layout > Navigation subtab.",
+						"mandatory": true
+					},
+					"image": {
+						"type": "string",
+						"title": "Image",
+						"description": "Featured image for this menu item."
+					},
+					"text": {
+						"type": "string",
+						"title": "Text",
+						"translate": true,
+						"description": "Link's text shown for the featured image on the left column."
+					},
+					"href": {
+						"type": "string",
+						"title": "href",
+						"description": "The href of the link - for example '/search' will go to the search results page. Also it could be an absolute URL like https://google.com but in that case, make sure you really need to break the single page application."
+					},
+					"dataTouchpoint": {
+						"type": "string",
+						"title": "data-touchpoint",
+						"description": "data-touchpoint value for the link if any",
+						"enum": [
+							"home",
+							"login",
+							"register",
+							"logout",
+							"customercenter",
+							"viewcart",
+							"checkout",
+							""
+						]
+					},
+					"dataHashtag": {
+						"type": "string",
+						"title": "data-hashtag",
+						"description": "data-hashtag value for the link if any"
+					}
+				}
+			}
+		}
+	}
+}

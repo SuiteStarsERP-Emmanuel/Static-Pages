@@ -1,0 +1,633 @@
+* { 
+    margin: auto; 
+    padding: 0; 
+    box-sizing: 
+    border-box;
+}
+
+/* SECTION 1: ABOUT US*/
+
+.about-us-container {
+    /* background-image: url(/Footer Logo.jpg); */
+    padding-top: 112.19px;
+    height: 350px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: url('../assets/img/img/background1.jpg');
+    text-align: center;
+    /* Transparent image overlay */
+    box-shadow: inset 0 0 0 1000px rgba(0,46,181, 0.8);
+}
+
+
+.about-us-header {
+
+    /* Typography styles/Hero */
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700; /* original font-weight: 700 */
+    font-size: 62px;
+    line-height: 62px;
+    color: #FFFFFF;
+    flex-grow: 0;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.paragraph-1 {
+
+    width: 700px;
+    height: 48px;
+
+    /* Typography styles/Body */
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/*  SECTION 2: OUR STRENGHTS */
+
+.our-strengths-container {
+    width: 1440px;
+    height: 159px;
+    background-color: rgb(201, 200, 200);
+    display: flex;
+}
+
+.flexbox-icon-1 {
+    margin: 0;
+    padding-top: 55.58px;
+    padding-bottom: 52.88px; 
+    padding-left: 89.97px;
+    width: 175px;
+    height: 159px;
+    background: #F8F8F8;
+}
+
+.flexbox-paragraph-2 {
+    margin: 0;
+    padding-top: 55px;
+    padding-right: 0px;
+    padding-bottom: 56px;
+    width: 205px;
+    height: 159px;
+    left: 0px;
+    top: 528px;
+    background: #F8F8F8;
+}
+
+.flexbox-icon-2 {
+    margin: 0;
+    width:92px;
+    padding-top: 44.3px;
+    padding-right: 30px;
+    padding-bottom: 52.88px; 
+    padding-left: 28.11px; 
+    height: 159px;
+    background: #F8F8F8;
+}
+
+.flexbox-paragraph-3 {
+    margin: 0;
+    width:247px;
+    padding-top: 43px;
+    padding-right: 30.89px;
+    padding-left: 28.89px;
+    background: #F8F8F8;
+}
+
+.flexbox-icon-3 {
+    margin: 0;
+    padding-top: 43px;
+    padding-left: 19px;
+    width: 109px;
+    background: #F8F8F8;
+}
+
+.flexbox-paragraph-4 {
+    margin: 0;
+    width: 205px;
+    padding-top: 56px;
+    background: #F8F8F8;
+}
+
+.flexbox-icon-4 {
+    margin: 0;
+    padding-top: 47px;
+    padding-left: 21.45px;
+    width: 90px;
+    background: #F8F8F8;
+}
+
+.flexbox-paragraph-5 {
+    margin: 0;
+    width: 318px;
+    padding-top: 55px;
+    padding-left: 42.45px;
+    background: #F8F8F8;
+}
+
+.paragraphs {
+    margin:0px;
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.story-services-container {
+    width: 1440px;
+    height: 1070px;
+    display:flex;
+    background: rgb(201, 201, 201);
+    
+}
+
+.flexbox-left-container{
+    margin: 0;
+    width: 728px;
+    /* display:flex; */
+    background: white;
+
+}
+.image-rounded-1 {
+    margin: 0;
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    border-radius: 50%; 
+}
+
+.image-rounded-2 {
+    margin: 0;
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    padding-left: 64px;
+    border-radius: 50%; 
+    margin-left: 64px;
+}
+
+.our-services-header{
+    margin: 0;
+    padding: 0;
+    margin-left: 64px;
+
+    width: 642px;
+    /* padding-top: 169px; */
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+
+.flexbox-right-container {
+    margin: 0;
+    width: 728px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+.our-story-header {
+    margin: 0;
+    width: 648px;
+    padding-top: 169px;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+
+.our-story-paragraph {
+    margin: 0;
+    padding-top: 26px;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.paragraphs-2 {
+    margin: 0;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 0px;
+    color: #000000;
+    margin-left: 64px;
+}
+.paragraphs-3 {
+    margin: 0;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 0px;
+    color: #000000;
+}
+
+.button-1{
+    margin-top: 24px;
+    height: 48px;
+    width: 180px;
+    left: 728px;
+    top: 1088px;
+    border-radius: 24px;
+    padding: 12px, 24px, 12px, 24px;
+    background: #0061BD;
+    border: #0061BD;
+    margin-left: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.button-2{
+    margin-top: 24px;
+    height: 48px;
+    width: 151px;
+    left: 728px;
+    top: 1088px;
+    border-radius: 24px;
+    padding: 12px, 24px, 12px, 24px;
+    background: #0061BD;
+    border: #0061BD;
+}
+
+.contact-us {
+    width: 103px;
+    height: 24px;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.our-mission-container {
+    width: 1306px;
+    /* width: 1347.55px; */
+    height: 484px;
+    background: url('../assets/img/img/background1.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0,46,181, 0.8);
+    /* display: flex; */
+}
+
+.our-mission-header {
+    /* Our Mission */
+    padding: 0;
+
+    width: 590.4px;
+    height: 40px;
+
+    /* Typography styles/Headers – Desktop/H3 */
+
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 165px;
+    margin-bottom: 55px;
+    width: 648px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.our-mission-paragraph {
+    /* margin: 0; */
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    /* White */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.paragraph-3{
+    /* margin: 0; */
+    width: 648px;
+    height: 72px;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* padding-right: 0px; */
+    color: white;
+    text-align: center;
+}
+
+.our-values-header {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    /* Black text */
+    color: #333333;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.our-values-paragraph {
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.our-values-container {
+    margin: auto;
+    width: 1440px;
+    height: 181px;
+    /* padding-top: 32px; */
+    background: #F8F8F8;
+    text-align: center;
+    padding-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    color: #333333;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.flexbox-our-values {
+    padding-top: 161;
+    width: 1440px;
+    height: 505px;
+    /* background: #ebe9e9; */
+    display: flex;
+}
+
+.our-values-container-left {
+    margin: 0;
+    width: 720px;
+    height: 505px;
+    background: #F8F8F8;
+} 
+
+.value {
+    margin: 0;
+    padding-top: 31px;
+    padding-left: 158px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+    color: #333333;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.value-2 {
+    margin: 0;
+    padding-top: 31px;
+    padding-left: 158px;
+    margin-bottom: 31px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+    color: #333333;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.value-blue {
+    line-height: 32px;
+    color: #333333;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #0061BD;
+    border-left: solid #0061BD;
+    border-width: 4.99px;
+    padding-left: 9px;
+    margin-left: 135px;
+}
+
+.value-blue-paragraph {
+    line-height: 16px;
+    color: #333333;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-left: solid #E7E7E7;
+    border-width: 4.99px;
+    padding-left: 9px;
+    margin-left: 135px;
+    
+}
+
+.our-values-container-right {
+    margin: 0;
+    width: 720px;
+    height: 505px;
+    background: #F8F8F8;
+} 
+
+.image-our-values {
+    border-radius: 5%;
+    width: 570px;
+    height: 400px;
+    margin-left: 90px;
+
+    
+}
+
+.our-management-team-header {
+
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    /* Black text */
+    color: #333333;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.management-team-header-container {
+    margin: auto;
+    width: 1440px;
+    height: 145px;
+    /* padding-top: 32px; */
+    background: white;
+    /* text-align: center; */
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.flexbox-management-team-container {
+    width: 1440px;
+    height: 211px;
+    display: flex;
+}
+
+.box-img-1 {
+    padding-left: 64px;
+    margin: 0;
+    margin-right: 16px;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.box-img-2 {
+    margin: 0;
+    margin-right: 16px;
+}
+
+.flexbox-management-team-container-2 {
+    width: 1440px;
+    height: 227px;
+    padding-top: 16px;
+    display: flex;
+}
+
+.box-img-3 {
+    padding-left: 230px;
+    margin: 0;
+    margin-right: 16px;
+}
+
+.box-img-4 {
+    margin: 0;
+    margin-right: 16px;
+}
+
+/* .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+} */
+
+.content-wrapper {
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+
+
+
+/* .manager-name {
+    position: absolute;
+    left: 2.53%;
+    right: 53.48%;
+    top: 69.67%;
+    bottom: 18.96%;font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+} */
+
+.manager-1 {
+    width: 316px;
+    margin-top: -10px;
+    margin-left: -93px;
+}
+
+.text-wrapper {
+    /* width: 100%; */
+    /* position: relative; */
+    margin-top: -40%;
+}
+
+.manager-name {
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: -65px;
+    margin-left: -80px;
+}
+
+.manager-position {
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-left: -80px;
+}

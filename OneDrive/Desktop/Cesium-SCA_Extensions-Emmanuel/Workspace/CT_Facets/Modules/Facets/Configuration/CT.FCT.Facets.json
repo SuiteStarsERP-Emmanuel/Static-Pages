@@ -1,0 +1,20 @@
+{
+	"type": "object",
+	"modifications": [
+		{
+			"target": "$.resource.template.facets-item-cell",
+			"action": "add",
+			"value": "ct_fct_facets_item_cell_list.tpl"
+		},
+		{
+			"target": "$.resource.template.facets-item-cell",
+			"action": "add",
+			"value": "ct_fct_facets_item_cell_grid.tpl"
+		},
+		{
+			"target": "$.resource.template.facets-item-cell",
+			"action": "add",
+			"value": "ct_fct_facets_item_cell_table.tpl"
+		}
+	]
+}

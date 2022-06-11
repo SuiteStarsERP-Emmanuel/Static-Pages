@@ -1,0 +1,141 @@
+// Banner component
+.ct-banner {
+  display: flex;
+  align-items: center;
+  padding: $sc-padding-lv8 $sc-padding-lv6;
+  background-size: cover;
+
+  @media (min-width: $screen-md-min) {
+    min-height: 368px;
+    padding: 60px 85px;
+
+    &.ct-banner-right {
+
+      .ct-banner-inner {
+        max-width: 500px;
+        margin-left: auto;
+      }
+    }
+  }
+
+  h3 {
+    color: $sc-neutral-shade;
+    font-weight: $sc-font-weight-normal;
+    margin-bottom: $sc-margin-lv2;
+  }
+
+  p {
+    color: $sc-neutral-shade;
+    margin-bottom: $sc-margin-lv8;
+  }
+}
+
+// Card component
+.ct-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    padding-top: 80%;
+  }
+
+  &-inner {
+    padding: $sc-padding-lv8 $sc-padding-lv6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex: 1 0 0;
+
+    @media (min-width: $screen-md-min) {
+      max-width: 70%;
+      padding-left: $sc-padding-lv9;
+      padding-right: $sc-padding-lv9;
+    }
+  }
+
+  h4,
+  p {
+    color: white;
+  }
+}
+
+// Call to Action component
+.ct-cta {
+
+  &-circle {
+
+    .ct-cta-inner {
+      display: block;
+      width: 206px;
+      height: 206px;
+      position: relative;
+      text-align: center;
+      padding: $sc-padding-lv1 * 24 $sc-padding-lv1 * 2 $sc-padding-lv1 * 10;
+      margin: 0 auto;
+      border: 1px solid $sc-color-cesium-700;
+      border-radius: 50%;
+      background: $sc-color-white;
+
+      img {
+        position: absolute;
+        top: $sc-padding-lv5;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .ct-cta-caption {
+        font-size: $sc-font-size-xxs;
+        line-height: 16px;
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      .ct-cta-title {
+        font-size: $sc-font-size-m;
+        line-height: 24px;
+        margin: 0;
+      }
+
+      .ct-cta-icon {
+        position: absolute;
+        left: 50%;
+        bottom: 8px;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        border: 1px solid #e7e7e7;
+        border-radius: 50%;
+      }
+
+      > * {
+        transition: all .3s ease-in-out;
+      }
+
+      &:hover {
+        background: $sc-color-cesium;
+
+        img {
+          margin-top: -4px;
+        }
+
+        .ct-cta-caption {
+          margin-top: -4px;
+        }
+
+        .ct-cta-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}

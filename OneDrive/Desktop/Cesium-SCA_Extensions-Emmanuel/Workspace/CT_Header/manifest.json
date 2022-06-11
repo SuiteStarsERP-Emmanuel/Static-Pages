@@ -1,0 +1,102 @@
+{
+    "name": "CT_Header",
+    "fantasyName": "Cesium Header",
+    "vendor": "SuiteStars",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=21.2.0",
+        "SCS": ">=21.2.0"
+    },
+    "description": "Extended Header for Cesium Theme.",
+    "skins": [],
+    "configuration": {
+        "files": [
+            "Modules/Main/Configuration/CT.HDR.Navigation.json",
+            "Modules/Header/Configuration/CT.HDR.Header.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/Main/Sass/_ct-hdr-main.scss",
+            "myaccount": "Modules/Main/Sass/_ct-hdr-main.scss",
+            "checkout": "Modules/Main/Sass/_ct-hdr-main.scss"
+        },
+        "files": [
+            "Modules/Main/Sass/_ct-hdr-main.scss",
+            "Modules/Header/Sass/_ct-hdr-header.scss",
+            "Modules/Header/Sass/_ct-hdr-header-sidebar.scss",
+            "Modules/Header/Sass/_ct-hdr-header-menu.scss",
+            "Modules/Header/Sass/_ct-hdr-header-sticky.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Header/Templates/ct_hdr_header.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_menu.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_profile.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_menu_featured.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_sidebar.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/Header/Templates/ct_hdr_header.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_menu.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_profile.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_menu_featured.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_sidebar.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/Header/Templates/ct_hdr_header.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_menu.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_profile.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_menu_featured.tpl",
+                    "Modules/Header/Templates/ct_hdr_header_sidebar.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Main/JavaScript/CT.HDR.Main.js",
+            "myaccount": "Modules/Main/JavaScript/CT.HDR.Main.js",
+            "checkout": "Modules/Main/JavaScript/CT.HDR.Main.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Header/JavaScript/CT.HDR.Header.View.js",
+                    "Modules/Main/JavaScript/CT.HDR.Main.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Menu.View.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Profile.View.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Menu.Featured.View.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/Header/JavaScript/CT.HDR.Header.View.js",
+                    "Modules/Main/JavaScript/CT.HDR.Main.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Menu.View.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Profile.View.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Menu.Featured.View.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/Header/JavaScript/CT.HDR.Header.View.js",
+                    "Modules/Main/JavaScript/CT.HDR.Main.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Menu.View.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Profile.View.js",
+                    "Modules/Header/JavaScript/CT.HDR.Header.Menu.Featured.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace\\CT_Header"
+}

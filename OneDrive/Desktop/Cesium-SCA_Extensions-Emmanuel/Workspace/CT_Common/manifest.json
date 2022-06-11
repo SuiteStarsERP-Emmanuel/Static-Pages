@@ -1,0 +1,112 @@
+{
+    "name": "CT_Common",
+    "fantasyName": "Cesium Common",
+    "vendor": "SuiteStars",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=21.2.0",
+        "SCS": ">=21.2.0"
+    },
+    "description": "Common customization and enhancements for Cesium.",
+    "skins": [],
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/Main/Sass/_ct-comm-main.scss",
+            "myaccount": "Modules/Main/Sass/_ct-comm-main.scss",
+            "checkout": "Modules/Main/Sass/_ct-comm-main.scss"
+        },
+        "files": [
+            "Modules/Main/Sass/_ct-comm-main.scss",
+            "Modules/Bootstrap/Sass/_ct-comm-bootstrap.scss",
+            "Modules/GlobalViews/Sass/_ct-comm-global-views.scss",
+            "Modules/Main/Sass/_ct-comm-components.scss",
+            "Modules/Main/Sass/_ct-comm-reset.scss",
+            "Modules/SiteSearch/Sass/_ct-comm-site-search-button.scss",
+            "Modules/SiteSearch/Sass/_ct-comm-site-search.scss",
+            "Modules/QuickLinks/Sass/_ct-comm-quick-links.scss",
+            "Modules/ItemsSearcher/Sass/_ct-comm-itemssearcher.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/GlobalViews/Templates/ct_comm_global_views_lang_selector.tpl",
+                    "Modules/QuickLinks/Templates/ct_comm_quick_links.tpl",
+                    "Modules/ItemsSearcher/Templates/ct_comm_itemssearcher_item.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/GlobalViews/Templates/ct_comm_global_views_lang_selector.tpl",
+                    "Modules/QuickLinks/Templates/ct_comm_quick_links.tpl",
+                    "Modules/ItemsSearcher/Templates/ct_comm_itemssearcher_item.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/GlobalViews/Templates/ct_comm_global_views_lang_selector.tpl",
+                    "Modules/QuickLinks/Templates/ct_comm_quick_links.tpl",
+                    "Modules/ItemsSearcher/Templates/ct_comm_itemssearcher_item.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Main/JavaScript/CT.COMM.Main.js",
+            "myaccount": "Modules/Main/JavaScript/CT.COMM.Main.js",
+            "checkout": "Modules/Main/JavaScript/CT.COMM.Main.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Backbone.FormView/JavaScript/CT.COMM.Backbone.FormView.js",
+                    "Modules/Main/JavaScript/CT.COMM.Main.js",
+                    "Modules/GlobalViews/JavaScript/CT.COMM.GlobalViews.CurrencySelector.View.js",
+                    "Modules/GlobalViews/JavaScript/CT.COMM.GlobalViews.LangSelector.View.js",
+                    "Modules/QuickLinks/JavaScript/CT.COMM.QuickLinks.View.js",
+                    "Modules/QuickLinks/JavaScript/CT.COMM.QuickLinks.Model.js",
+                    "Modules/SiteSearch/JavaScript/CT.COMM.SiteSearch.Button.View.js",
+                    "Modules/SiteSearch/JavaScript/CT.COMM.SiteSearch.js",
+                    "Modules/ItemsSearcher/JavaScript/CT.COMM.ItemsSearcher.View.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/Backbone.FormView/JavaScript/CT.COMM.Backbone.FormView.js",
+                    "Modules/Main/JavaScript/CT.COMM.Main.js",
+                    "Modules/GlobalViews/JavaScript/CT.COMM.GlobalViews.CurrencySelector.View.js",
+                    "Modules/GlobalViews/JavaScript/CT.COMM.GlobalViews.LangSelector.View.js",
+                    "Modules/QuickLinks/JavaScript/CT.COMM.QuickLinks.View.js",
+                    "Modules/QuickLinks/JavaScript/CT.COMM.QuickLinks.Model.js",
+                    "Modules/SiteSearch/JavaScript/CT.COMM.SiteSearch.Button.View.js",
+                    "Modules/SiteSearch/JavaScript/CT.COMM.SiteSearch.js",
+                    "Modules/ItemsSearcher/JavaScript/CT.COMM.ItemsSearcher.View.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/Backbone.FormView/JavaScript/CT.COMM.Backbone.FormView.js",
+                    "Modules/Main/JavaScript/CT.COMM.Main.js",
+                    "Modules/GlobalViews/JavaScript/CT.COMM.GlobalViews.CurrencySelector.View.js",
+                    "Modules/GlobalViews/JavaScript/CT.COMM.GlobalViews.LangSelector.View.js",
+                    "Modules/QuickLinks/JavaScript/CT.COMM.QuickLinks.View.js",
+                    "Modules/QuickLinks/JavaScript/CT.COMM.QuickLinks.Model.js",
+                    "Modules/SiteSearch/JavaScript/CT.COMM.SiteSearch.Button.View.js",
+                    "Modules/SiteSearch/JavaScript/CT.COMM.SiteSearch.js",
+                    "Modules/ItemsSearcher/JavaScript/CT.COMM.ItemsSearcher.View.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/Profile/SuiteScript/CT.COMM.Profile.Model.js",
+        "files": [
+            "Modules/Profile/SuiteScript/CT.COMM.Profile.Model.js"
+        ]
+    },
+    "local_folder": "Workspace\\CT_Common"
+}
