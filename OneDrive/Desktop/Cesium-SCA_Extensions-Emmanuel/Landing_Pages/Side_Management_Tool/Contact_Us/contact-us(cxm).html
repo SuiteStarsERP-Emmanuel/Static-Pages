@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <style>
+        
+    * { 
+      margin: auto; 
+      padding: 0;
+      box-sizing:
+      border-box;
+    }
+
+    html {
+      font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .contact-us-header {
+      font-size: 50px;
+      height: 84px;
+      text-align: center;
+      padding-top: 29px;
+      padding-bottom: 29px;
+    }
+    
+    .flexbox-container {
+      margin: auto;
+      width: 90%;
+      display: flex;
+    }
+
+    .flex-1 {
+      margin: 0;
+      /* height: 558px; */
+      width: 100%;
+    }
+
+    .flex-2 {
+      height: 558px;
+      width: 100%;
+      background: #F2F2F2;
+      padding-top: 120px;
+      margin-left: 10px;
+    }
+
+    .asterix {
+      color: #0061BD;
+    }
+
+    .inputs {
+      margin-right: 15px;
+      padding-left: 10px;
+      width: 100%;
+    }
+
+    #message-box {
+      height: 145px;
+      padding-bottom: 135px;
+    }
+
+    h3, h5, p, a {
+      margin: auto;
+      width: 100%;
+      text-align: center;
+    }
+
+
+    .send-message-button {
+      margin: auto;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      background: #0061BD;
+      border: #0061BD;
+      height: 40px;
+      max-width: 200px;
+      width: 100%;
+    }   
+    
+    .button-text {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: white;
+    }
+
+    .blue-underline {
+      color: #0061BD;
+      text-decoration: underline;
+    }
+
+    input {
+      margin-left: auto;
+      border-radius: 8px;
+      padding-left: 3%;
+      border: 1px solid #E7E7E7;
+      border-radius: 8px; 
+      margin-bottom: -13px;
+    }
+
+    #word-break {
+      word-break: break-word;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      .flexbox-container {
+        flex-direction: row;
+      }
+    }
+    
+    @media only screen and (max-width: 1000px) {
+      .flexbox-container {
+        flex-direction: column;
+      }
+      
+      .flex-1 {
+        margin: auto;
+        width: 100%;
+        margin-right: 15px;
+      }
+
+      .flex-2 {
+        margin: auto;
+        width: 100%;
+         margin-top: 30px; 
+        padding-top: 120px;
+      }
+      
+      .contact-us-form, .inputs {
+        margin-right: auto;
+        width: 100%;
+      }
+      
+      .contact-us-form {
+        margin: auto;
+        width: 100%;
+      }
+      
+      .contact-us-header {
+        width: 100%;
+        font-size: 30px;
+      }
+      
+      .input { 
+        width: 100%;
+      }
+      
+      .blue-underline {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      
+      .send-message-button {
+        margin: auto;
+      }
+      
+      .cesium-email {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    
+    /*@media only screen and (max-width: 992px) {*/
+    /*  .flexbox-container {*/
+    /*    flex-direction: column;*/
+    /*  }*/
+      
+    /*  .flex-2 {*/
+    /*    padding: 120px 10px 0 10px;*/
+    /*    margin-top: 30px;*/
+    /*  }*/
+      
+    /*  .cesium-email {*/
+    /*    padding-left: 15px;*/
+    /*    padding-right: 15px;*/
+    /*  }*/
+    /*}*/
+  
+    </style>
+    <body>
+        <section>
+            <div><h1 class="contact-us-header">Contact Us</h1></div>
+        </section style="max-width: 100%">
+        <section>
+            <div class="flexbox-container">
+                <div class="flex-1">
+                    <form  class="contact-us-form">
+                        <label><span class="asterix">*</span>Required information</label><br>
+                        <input class="inputs" type="text" id="fname" name="fname" placeholder="First Name*"><br>
+                        <input class="inputs" type="text" id="lname" name="lname" placeholder="Last Name*"><br>
+                        <input class="inputs" type="text" id="lname" name="lname" placeholder="Email*"><br>
+                        <input class="inputs" type="text" id="lname" name="lname" placeholder="Phone*"><br>
+                        <textarea class="inputs" id="message-box" id="lname" name="lname" placeholder="Message*"></textarea><br><br>
+                        <button class="send-message-button"><span class="button-text">Send Message</span></button>
+                    </form>
+                </div>
+                <div class="flex-2">
+                  <h3 style="padding-bottom: 2%; color: black; font-size: 22px">Contact Us Directly</h3>
+                  <h5 style="color: black; font-size: 16px">Contact Information</h5><br>
+                    <p style="margin-bottom: 2px"><b>Phone:</b></p>
+                    <p style="margin-bottom: -20px"><span class="blue-underline" id="word-break"><a href="mailto:test@test.com">1-877-798-8686</a></span></p><br> <br>
+                    <p><b>Email:</b></p>
+                    <p style="margin-bottom: -35px"><a href="mailto:test@test.com" class="blue-underline" id="word-break">customercare@cesiumtelecom.com</a></p>
+                    <br><br>
+                    <p style="margin-bottom: 1.5px" style="margin-top: -20px"><b>Hours:</b></p>
+                    <p>Mon - Fri / 9am - 5pm (EST)</p>
+                </div>
+            </div>
+        </section>
+    </body><br><br>
+</html>

@@ -1,0 +1,529 @@
+* { 
+   margin: auto; 
+    padding: 0; 
+    box-sizing: 
+    border-box;
+  }
+  /*  */
+
+  @media only screen and (min-width: 1200px) {
+    .career-body-text-three-two{
+    margin-top: -20px;
+    }
+
+    .career-body-page-lower
+    {
+      height: 550px;
+      
+    }
+
+    .career-page-footer{
+      margin: 60px;
+      text-align: center;
+    }
+
+    .career-body-page{
+      padding: 40px;
+    }
+
+    .career-image-two{
+      float: right; 
+      margin-right: 50px;
+      width: 550px; 
+      height: 550px;
+    }
+  
+    .logo-hold{
+      display: flex;
+      margin-top: 0%;
+      grid-template-columns: auto auto auto auto;
+    }
+
+    .logo-box-1,
+    .logo-box-2,
+    .logo-box-3,
+    .logo-box-4,
+    .career-page-footer-img-button-contact,
+    .career-page-footer-img-button-posting{
+      display: inline-block;
+      display: inline;
+
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+    }
+
+    .career-page-logo-container,
+    .career-culture-text-button{
+     display: inline-block;
+     }
+
+     .career-body-container-right,
+      .career-body-container-left{
+        margin-left: auto;
+        margin-right: auto;
+        float: left;
+        width: 50%; 
+      }
+
+      .career-body-container-top{
+        display: none;
+      }
+
+      .career-body-text-one,
+      .career-body-text-two,
+      .career-body-text-five,
+      .career-body-text-four,
+      .career-body-text-three{
+        text-align: left;
+
+      }
+
+      .career-body-text-three
+      {
+        width: 100%;
+        float: left;
+      }
+
+      .career-body-container-left{
+        padding-left: 200px;
+      }
+
+      .career-body-text-three-two{
+        float: left;
+      }
+
+      .career-body-text-three-one{
+        border-left: solid #0061BD;
+      }
+
+      .career-body-text-three-one{
+        color: #0061BD;
+      }
+      
+      .career-body-text-three-two{
+        margin-right: 150px;
+        text-align: left;
+        border-left: solid #f8f8f8f8;
+      }
+
+      .career-body-container-right-lower,
+      .career-body-container-left-lower{
+          
+        margin-left: auto;
+        margin-right: auto;
+        float: left;
+        width: 50%;
+
+      }
+
+      .career-body-container-left-lower{
+        padding-right: 50px;
+      }
+      .career-body-container-right-lower{
+        padding-top: 130px;
+      }
+
+      .career-culture-text-body{
+        margin-top: 20px;
+        padding-right: 80px;
+      }
+
+
+  }
+
+
+
+  @media only screen and (max-width: 1200px) {
+
+    .career-body-container-left{
+      align-items: center;
+    }
+  
+    .career-body-container-top{
+      margin-top: 5%;
+      width: 100%;
+      display: block;
+    }
+
+    .career-body-container-top{
+      min-height: 50%;
+      text-align: center;
+    }
+
+    .career-image-top-one{
+      max-height: fit-content;
+      max-width: 80%;
+      border-radius: 25px;
+    }
+    .career-image-two{
+      width: 80%; 
+      height: fit-content;
+    }
+
+    .career-body-container-left-lower{
+      width: 100%;
+      text-align: center;
+    }
+
+    .career-page-logo-container{
+      width: fit-content;
+    }
+
+    .career-body-container-right-lower{
+      margin-top: 10px;
+      width: 95%;
+      text-align: center;
+    }
+
+    .career-body-container-right{
+      float: inline-start;
+    }
+
+    .career-body-page-lower
+    {
+      margin-bottom: 5%;
+    }
+    
+    .career-body-page{
+      padding: 10px;
+    }
+
+    .logo-box-1{
+      vertical-align: auto;
+    }
+
+    .logo-hold{
+      grid-template-columns: auto auto;
+    }
+
+    .career-title-desc{
+      display: none;
+    }
+
+    .career-body-container-right{
+      display: none;
+    }
+    .career-body-text-one,
+    .career-body-text-two,
+    .career-body-text-five,
+    .career-body-text-four{
+      text-align: center;
+    }
+
+    .career-page-footer-img-body-text{
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+  }
+
+  .career-page-footer-img-header-text,
+  .career-page-footer-img-body-text,
+  .career-page-footer-img-button-container,
+  .career-body-text-three-two{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.career-banner{ 
+    text-align: center;
+    width: 100%;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(0,46,181, 0.8);
+    height: 350px; 
+    background-image: url("assets/Image/pexels-fauxels-3183197.jpg");
+  }
+
+  
+.career-header-img-Text{
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  
+}
+
+
+.career-page-header{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 62px;
+  margin: 10px;
+  color: white;
+}
+
+
+.career-title-desc{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+
+.logo-hold
+{
+  display: grid;
+
+  align-content: center;
+  min-height: 160px;
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
+
+.logo-box-1,
+.logo-box-2,
+.logo-box-3,
+.logo-box-4
+{
+  margin: 10px;
+  flex: auto;
+}
+
+
+
+.career-page-logo-img {
+  position: relative;
+}
+
+
+
+
+.career-page-logo-text{
+  /*  ; */
+
+  max-width: 250px;
+  margin-left: 25px;
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.career-page-title{
+  /* margin-top: -30px; */
+  text-align-last: center; 
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.career-page-title-desc{
+  /* margin-top: -20px; */
+  margin-top: 15px;
+  text-align-last: center;
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+
+
+.career-body-page{
+  margin: auto;
+
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+.career-image-one{
+  border-radius: 50px;
+  width: 600.00px;
+  height: 430.00px;
+  float: left;
+}
+
+
+.career-body-text-one,
+.career-body-text-two,
+.career-body-text-five,
+.career-body-text-four{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  margin: 20px;
+}
+
+.career-body-text-three-one{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.career-body-text-three-two{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 550px;
+
+}
+
+
+
+.career-body-text-one,
+.career-body-text-two,
+.career-body-text-five,
+.career-body-text-four,
+.career-body-text-three{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+
+.career-body-text-three-one,
+.career-body-text-three-two{
+  padding-left: 15px;
+}
+
+.career-body-text-three-two{
+  margin-bottom: 10px;
+}
+
+
+
+.career-body-page
+{
+  border: #0061BD;
+   
+}
+
+
+.career-culture-text-header{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  
+}
+
+.career-culture-text-body{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+
+
+.career-page-footer-img{
+  box-shadow: inset 0 0 0 1000px rgba(0,46,181, 0.8);
+  background-image: url("assets/Image/pexels-fauxels-3183197.jpg");
+  min-height: 400px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+
+
+.career-page-footer-img-header-text{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+  padding-top: 100px;
+}
+
+.career-page-footer-img-body-text{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+/*
+  margin-right: 500px;
+  margin-left: 500px;
+  */
+}
+
+.career-page-footer-img-button-posting{
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  margin: 10px;
+  background-color: white; /* Green */
+  border: none;
+  color: #0061BD;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline;
+}
+
+.career-page-footer-img-button-contact{
+  margin: 10px;
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  margin: 35px;
+  border: 2px solid white;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  background: transparent;
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline;
+}
+
+
+.career-culture-text-button{
+  margin-top: 25px;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #0061BD;
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+}
