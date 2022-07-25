@@ -129,6 +129,43 @@
   .rounded-image-container {
     margin-top: -33px;
   }
+
+  .our-management-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    gap: 30px;
+  }
+
+  .grid-manager-1 {
+    grid-column: span 2;
+    padding-left: 10px;
+  }
+
+  .grid-manager-2 {
+    grid-column: span 2;
+  }
+
+  .grid-manager-3 {
+    grid-column: span 2;
+  }
+
+  .grid-manager-4 {
+    grid-column: span 2;
+  }
+
+  .grid-manager-5 {
+    grid-column: span 2;
+  }
+
+  .grid-manager-6 {
+    grid-column: span 2;
+  }
+
+  .grid-manager-7 {
+    grid-column: span 2;
+  }
 }
 
 
