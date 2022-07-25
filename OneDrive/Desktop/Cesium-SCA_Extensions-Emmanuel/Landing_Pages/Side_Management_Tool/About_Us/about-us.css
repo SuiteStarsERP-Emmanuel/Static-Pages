@@ -71,6 +71,7 @@
 
   .our-services-header {
     margin: auto;
+    margin-top: -100px;
   }
 
   .button-1 {
@@ -81,9 +82,10 @@
   .image-rounded-1, .image-rounded-2 {
     margin: 0;
     /* margin-top: 25px; */
-    padding: 16px 50px 16px 50px;
+    /* padding: 16px 50px 16px 50px; */
     max-width: 260px; 
     height: 100%;
+ 
   }
 
   .our-story-header {
@@ -122,6 +124,10 @@
   .our-values-container-left,
   .our-values-container-right {
     display: none;
+  }
+
+  .rounded-image-container {
+    margin-top: -33px;
   }
 }
 
@@ -231,7 +237,7 @@
     position: relative;
     background: white;
     /* margin-top: 200px; */
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
 
   .flexbox-right-container{
@@ -250,16 +256,10 @@
   .image-rounded-1, .image-rounded-2 {
     margin: 0;
     margin-top: -20px;
-    /* margin-left: 64px; */
-    /* margin-bottom: 30px; */
     border-radius: 50%; 
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
-    padding: 70px
-  }
-
-  .flexbox-right-container {
-    padding-top: 200px;
+    margin-top: 53px;
   }
 
 
@@ -274,7 +274,7 @@
     line-height: 40px;
     margin-top: 35px;
     margin-bottom: 24px;
-    padding-left: 64px;
+    padding-left: 16px;
   }
 
   .flexbox-right-container {
@@ -303,7 +303,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    padding-left: 64px;
+    padding-left: 16px;
     /* margin-left: 64px; */
   }
   
@@ -329,7 +329,6 @@
 
     padding-left: 16px;
     padding-right: 16px;
-    margin-left: 64px;
   }
 
   .button-2 {
